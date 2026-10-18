@@ -2,11 +2,18 @@ groups:
   - name: 紧密相连
     desc:
     links:
-      - url: https://https://zjutjh.github.io//
+      - url: https://zjutjh.github.io/
         avatar: https://static.031130.xyz/uploads/2024/12/31/71b730c8be4a8.webp
         name: "ZJUTJH"
         desc: 浙工大精弘网络RSS看板
+        blog: 浙工大精弘网络RSS看板
         color: '#ffffff'
+      - url: https://blog.sugarmgp.cn/
+        avatar: https://q1.qlogo.cn/g?b=qq&nk=2350745751&s=100
+        name: "白糖撒一地"
+        desc: "白糖的记事本"
+        blog: "白糖的记事本"
+        color: "#ffffff"
   - name: 推荐网站
     desc:
     links:
