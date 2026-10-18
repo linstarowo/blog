@@ -1,0 +1,181 @@
+baseURL = 'https://blog.linstar.cn'   # 你的站点地址
+defaultContentLanguage = 'zh-cn'
+locale = 'zh-cn'
+timeZone = 'Asia/Shanghai'
+title = 'Linstars Blog'
+theme = 'aiovt-simple'      # 主题，不要动
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[params]
+  description = '你好'
+
+  [params.profile]
+    avatar = 'https://avatars.githubusercontent.com/u/180071407'    # 站点头像，也可以替换为图床
+    greeting = '你好，我是'
+    name = 'linstarowo'
+
+  [params.hero]
+
+    [params.hero.tagline]
+      before = '也可以叫我'       
+      highlight = ''           # 高亮部分
+      middle = ''
+      tag = 'BG5HCE'                 # 代码框部分
+
+  [params.stats]
+    enabled = true
+    start_date = '2026-10-14'         # 页脚计时起始时间
+
+  [params.footer]
+    icp = '浙ICP备2026071329号-1'        #页脚备案
+    icp_url = 'https://icp.gov.moe/?keyword=20259977'   #备案地址
+    copyright_from = 2026
+    copyright_name = 'Linstar'
+    life_text = '我来到这个世界已经'
+    birth_date = '2008-05-10T00:00:00+08:00'
+
+  [params.hitokoto]
+    enabled = true           # 一言部分
+    fallback = '一言加载失败，点击重试'
+    show_from = true
+    interval = 30
+    seen_max = 100
+    type = ''  # 可选：a动画 b漫画 c游戏 d文学 e原创 f网络 g其他 h影视 i诗词 j网易云 k哲学
+
+  [params.loader]
+    enabled = true
+    min_duration = 300
+    max_duration = 6000
+
+  [params.post]
+    default_cover = 'img/default-post-cover.png'   # 文章默认图片，也支持图床
+
+  [params.home]
+    # 桌面端首页文章列表：orbit 行星环 | timeline 时间轴
+    desktop_posts_view = 'orbit'    # 首页文章列表显示样式
+    # 桌面端时间轴首屏显示篇数（移动端仍为 10 篇 + 显示全部）
+    desktop_timeline_limit = 8
+
+    [params.home.musings]
+      enabled = true
+      label = 'MUSINGS'
+      title = '碎念'
+      limit = 6
+
+    [params.home.closing]
+      enabled = true
+      welcome = '欢迎来信'
+      mark_label = '留下印记'
+      mark_url = '/guestbook'
+      subscribe_label = '订阅通信'
+      subscribe_url = '/index.xml'
+
+  [params.friends]
+    label = 'LINKS'
+    title = '朋友们'
+    subtitle = '哦耶耶 开心 比什么都贵'
+    comments = false
+    comments_title = '友链申请'
+
+    [params.friends.notice]
+      enabled = false                      #友链页公告部分
+      info_title = '本站友链信息如下：'
+      siteshot = 'https://r2tc.20030327.xyz/file/博客/友链/1782648663355_1782648636757.png'      # 站点截图
+
+      [params.friends.notice.site]
+        # 留空则自动读取站点 profile / description / baseURL    # 友链页本站信息部分，有问题才设置
+        # name = 'AIOVTUE-雪'
+        # url = 'https://daily.yybb.us/'
+        # avatar = ''
+        # description = ''
+        # siteshot = ''
+
+  [params.about]
+    label = 'ABOUT'
+    title = '关于'
+    subtitle = '很高兴在这里遇见你'
+    comments = false
+    comments_title = '留言'
+
+  [params.posts]
+    label = 'BLOG'
+    title = '文章'
+    per_page = 10
+
+  [params.search]
+    enabled = true
+    sections = ['posts', 'thoughts']
+    placeholder = '搜索文章…'
+    hint = '输入关键词搜索，按 Ctrl+K 或 Esc 关闭'
+    empty = '没有找到相关内容'
+
+    [params.search.section_labels]
+      posts = '文章'
+      thoughts = '动态'
+
+  [params.archives]
+    label = 'ARCHIVES'
+    initial_count = 24
+    load_batch = 12
+
+[[params.social]]
+  name = 'RSS'                # 社交图标部分
+  link = '/index.xml'
+  icon = 'ri:rss-line'
+  color = 'orange'
+
+[[params.social]]
+  name = 'GitHub'
+  link = 'https://github.com/linstarowo'
+  icon = 'ri:github-line'
+  color = '#6e5494'
+
+[[params.social]]
+  name = 'E-Mail'
+  link = 'mailto:linstarowo@outlook.com'
+  icon = 'ri:mail-line'
+  color = '#8E71C1'
+
+[[menus.main]]
+name = '首页'
+pageRef = '/'
+weight = 1
+
+[[menus.main]]
+name = '文章'
+pageRef = '/posts'
+weight = 2
+
+[[menus.main]]
+name = '归档'
+url = '/archives'
+weight = 3
+
+[[menus.main]]
+name = '友链'
+url = '/friends'
+weight = 5
+
+[[menus.main]]
+name = '关于'
+url = '/about'
+weight = 7
+
+[pagination]
+  pagerSize = 10
+  path = 'page'
+
+[minify]
+  minifyOutput = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = 'github'
+    lineNos = false
+    noClasses = false
+    tabWidth = 4
