@@ -14,6 +14,12 @@ groups:
         desc: "白糖的记事本"
         blog: "白糖的记事本"
         color: "#ffffff"
+      - url: https://daoyezongzi.org/
+        avatar: https://daoyezongzi.org/img/avatar.jpg
+        name: "稻叶粽子"
+        desc: "未寄出的信"
+        blog: "未寄出的信"
+        color: "#ffffff"
   - name: 推荐网站
     desc:
     links:
