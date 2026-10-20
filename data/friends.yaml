@@ -20,6 +20,30 @@ groups:
         desc: "未寄出的信"
         blog: "未寄出的信"
         color: "#ffffff"
+      - url : https://blog.yssso.cn/
+        avatar: https://blog.yssso.cn/_astro/Yuan.PcQ5Eilp_Vzz1g.webp
+        name: "Yuan"
+        desc: "Yuan's Blog"
+        blog: "Yuan's Blog"
+        color: "#ffffff"
+      - url: https://endercrysta2.xyz/
+        avatar: https://www.endercrysta2.xyz/img/EnderCrysta2.webp
+        name: "EnderCrystal"
+        desc: "EnderCrystal"
+        blog: "EnderCrystal"
+        color: "#ffffff"
+      - url: https://blog.fridayssheep.top/
+        avatar: https://blog.fridayssheep.top/upload/acd23f29-4e54-4f25-86e3-3b7f76b62445.png?width=800
+        name: "Fridayssheep"
+        desc: "Fridayssheep的鲸湾"
+        blog: "Fridayssheep的鲸湾"
+        color: "#ffffff"
+      - url: https://blog.rgsuk.org/
+        avatar: https://avatars.githubusercontent.com/u/187073435?v=4
+        name: "Aveline"
+        desc: "Aveline Noir"
+        blog: "Aveline Noir"
+        color: "#ffffff"
   - name: 推荐网站
     desc:
     links:
