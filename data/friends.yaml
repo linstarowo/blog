@@ -44,6 +44,12 @@ groups:
         desc: "Aveline Noir"
         blog: "Aveline Noir"
         color: "#ffffff"
+      - url: https://blog.jieson.cn/
+        avatar: https://blog.jieson.cn/img/favicon.png
+        name: "不吃香菜"
+        desc: "不吃香菜's blog"
+        blog: "不吃香菜's blog"
+        color: "#ffffff"
   - name: 推荐网站
     desc:
     links:

@@ -30,7 +30,7 @@ theme = 'aiovt-simple'      # 主题，不要动
 
   [params.footer]
     icp = '浙ICP备2026071329号-1'        #页脚备案
-    icp_url = 'https://icp.gov.moe/?keyword=20259977'   #备案地址
+    icp_url = 'https://www.icpbacx.com/info/864732877082629'   #备案地址
     copyright_from = 2026
     copyright_name = 'Linstar'
     life_text = '我来到这个世界已经'
