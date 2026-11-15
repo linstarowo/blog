@@ -177,5 +177,5 @@ weight = 7
   [markup.highlight]
     style = 'github'
     lineNos = false
-    noClasses = false
+    noClasses = true
     tabWidth = 4
